@@ -1,0 +1,91 @@
+a:hover,
+a:focus,
+a:active,
+.simple-title > h2 i,
+.play-video, .pause-video,
+.fancy-btn,
+.title > h2 i,
+.room-detail h3 i,
+.offer-detail h5,
+.option-set li a.selected,
+.event-text > h2 span,
+.testimonials-slide strong,
+ul li:before,
+.menu ul li.active > a,
+.pagetop-inner h1 span,
+blockquote,
+form button,
+.whitebox > h4,
+.heaven-popup > h2 i{
+	color:#cb465c;
+}
+
+.slide-text h2:before,
+.simple-title:before,
+.book-btn,
+.gallery-hover > h4,
+.event-text[data-rel]:before,
+.owl-dot.active,
+.heaven-member > h5,
+.short-post-img span,
+.short-post-img > a:before,
+.testimonials-carousel .owl-dots > div.active,
+.header-btn.fancy-btn,
+.simple-post-img strong,
+.datepicker table tr td span.active:hover, .datepicker table tr td span.active:hover:hover, .datepicker table tr td span.active.disabled:hover, .datepicker table tr td span.active.disabled:hover:hover, .datepicker table tr td span.active:active, .datepicker table tr td span.active:hover:active, .datepicker table tr td span.active.disabled:active, .datepicker table tr td span.active.disabled:hover:active, .datepicker table tr td span.active.active, .datepicker table tr td span.active.active:hover, .datepicker table tr td span.active.disabled.active, .datepicker table tr td span.active.disabled.active:hover, .datepicker table tr td span.active.disabled, .datepicker table tr td span.active.disabled:hover, .datepicker table tr td span.active.disabled.disabled, .datepicker table tr td span.active.disabled.disabled:hover, .datepicker table tr td span.active[disabled], .datepicker table tr td span.active[disabled]:hover, .datepicker table tr td span.active.disabled[disabled], .datepicker table tr td span.active.disabled[disabled]:hover{
+	background-color:#cb465c;
+}
+
+
+.simple-btn,
+.fancy-btn,
+.fancy-btn:before,
+.fancy-btn:after,
+.menu ul li a:before,
+form button{
+	border-color:#cb465c;
+}
+
+
+
+
+
+.simple-title span,
+.service-detail h4,
+.offer-detail > span,
+.option-set li a,
+.event-text > ul li,
+.title.style2 > h2 span,
+.testimonials-slide strong i,
+ul.meta li,
+.widget ul.meta li,
+.tags > a,
+h3.subtitle,
+.heaven-popup > span{
+	color:#547980;
+}
+
+.title > h2 span,
+.room-img:before,
+.coloured:before,
+.gallery-hover a,
+.event-text > ul li:before,
+.testimonials:before, 
+.testimonials:after,
+.heaven-member > span,
+.widget-title:before,
+.breadcrumbs,
+.rates thead,
+.close{
+	background-color:#547980;
+}
+
+
+.testimonials{
+	border-color:#547980;
+}
+
+
+
+
+

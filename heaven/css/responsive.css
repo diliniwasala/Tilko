@@ -1,0 +1,195 @@
+@media (max-width:1200px){	
+.slide-text h2{font-size:40px;margin-bottom:20px;padding-bottom:20px}
+.slide-text p{font-size:16px;line-height:28px}
+.menu ul li{padding:19px 10px 20px}
+.slide-text h2{font-size:40px;margin-bottom:20px;padding-bottom:20px}
+.slide-text p{font-size:16px;line-height:28px}
+.menu ul li{padding:19px 10px 20px}
+.simple-title > h2{font-size:37px;line-height:40px}
+.simple-title span{font-size:20px}
+.simple-title{margin-bottom:20px;padding-bottom:20px}
+.about-text > p{font-size:14px;line-height:22px;margin-bottom:20px}
+.fancy-btn{padding:13px 20px}
+.title > h2{font-size:40px}
+.title > h2 span{font-size:12px;padding:5px 15px}
+.room-detail h3{font-size:23px}
+.room-detail > p{font-size:13px}
+.service-detail h4{font-size:35px;line-height:37px;margin-bottom:10px}
+.service-detail > p{font-size:13px;margin-bottom:20px}
+.selectors li a span{font-size:26px}
+.heaven-offers > p{font-size:14px;line-height:21px}
+.offer-detail h5{font-size:22px;line-height:24px}
+.offer-detail h5 strong{font-size:37px}
+.offer-detail{padding:50px 20px}
+.offer-detail > span{font-size:11px;margin:10px 0}
+.offer-detail > p{font-size:13px;line-height:22px;margin-bottom:12px}
+.small-offer .offer-detail h5{font-size:24px}
+.small-offer .offer-detail h5 strong{font-size:24px}
+.small-offer .offer-detail span{font-size:15px;margin:0}
+.room-img > span{font-size:24px}
+.room-img > span i{font-size:11px}
+.book-btn{font-size:20px}
+.counter > strong{font-size:50px}
+.counter > span{font-size:18px}
+.option-set li{font-size:13px}
+.gallery-hover > h4{font-size:20px;padding:5px 0}
+.gallery-hover > p{font-size:14px;margin-top:15px;padding:0 14px }
+.gallery-hover a{font-size:13px;padding:10px 20px}
+.event-text > p{font-size:13px;line-height:20px}
+.event-text > h2{font-size:30px} 
+.event-text{padding:20px 30px}
+.event-text > ul li{font-size:11px;margin-right:10px}
+.event-text[data-rel]::before{font-size:16px}
+.testimonials-carousel .owl-dots{bottom:30px}
+.testimonials-slide blockquote{font-size:15px;margin:0;padding-top:0}
+.heaven-member > h5{font-size:14px}
+.heaven-member > span{font-size:12px}
+.short-post-img img{width:230px}
+.short-post-desc > h4{font-size:16px}
+ul.meta li{font-size:12px;padding-right:20px}
+ul.meta li:before{right:6px}
+.short-post-desc > p{font-size:13px;line-height:20px}
+.widget .about-widget ul li i{font-size:13px;width:9px}
+.pagetop-inner h1{font-size:50px}
+.breadcrumbs{margin-top:23px}
+}
+
+
+@media (max-width:980px){
+.block .container,.container{padding:0 15px}
+.header-btn.fancy-btn.responsive-menu-btn{display:block;float:left;font-size:18px;padding:10px 20px}
+nav{background:#141414;height:100%;overflow:auto;padding:0;position:fixed;right:-250px;top:0;width:250px;z-index:1000;
+-webkit-transition:all 500ms cubic-bezier(0.390, 0.575, 0.565, 1.000);
+-moz-transition:all 500ms cubic-bezier(0.390, 0.575, 0.565, 1.000);
+-o-transition:all 500ms cubic-bezier(0.390, 0.575, 0.565, 1.000);
+transition:all 500ms cubic-bezier(0.390, 0.575, 0.565, 1.000);/* easeOutSine */
+
+-webkit-transition-timing-function:cubic-bezier(0.390, 0.575, 0.565, 1.000);
+-moz-transition-timing-function:cubic-bezier(0.390, 0.575, 0.565, 1.000);
+-o-transition-timing-function:cubic-bezier(0.390, 0.575, 0.565, 1.000);
+transition-timing-function:cubic-bezier(0.390, 0.575, 0.565, 1.000);/* easeOutSine */
+}
+nav.slidein{right:0}
+nav .nav{left:0;padding:30px;position:absolute;top:50%;
+    -webkit-transform:translateY(-50%);
+    -moz-transform:translateY(-50%);
+    -ms-transform:translateY(-50%);
+    -o-transform:translateY(-50%);
+    transform:translateY(-50%);
+}
+nav .nav li{display:unset;float:left;font-size:13px;margin:0;padding:0;text-align:center;width:100%}
+nav .nav li a{display:inline-block;float:none;width:100%}
+header.sticky .menu nav > ul ul,
+.menu ul li ul{background:#333;display:none;margin:0;min-width:0;opacity:1;visibility:visible;width:100%;position:relative;margin:0}
+.header-btn.fancy-btn{margin-top:5px}
+.slide-text{max-width:520px}
+.slide-text > h2{font-size:30px;letter-spacing:1px;line-height:30px;margin-bottom:10px;padding-bottom:10px}
+.slide-text p{font-size:14px;line-height:24px}
+.simple-btn{font-size:10px;padding:10px 20px}
+.about-text{display:unset;float:left;padding:0;width:100%}
+.heaven-video{display:unset;float:left;margin-top:30px;width:100%}
+.about-heaven{display:unset}
+.luxury-rooms{text-align:center}
+.luxury-rooms .row > div{display:inline-block;float:none;margin:0 -2px;text-align:left;width:50%}
+.heaven-services{display:unset}
+.selectors{display:unset;float:left;width:100%}
+.tab-content{display:unset;float:left;margin-top:40px;padding:0;width:100%}
+.heaven-offers{margin-bottom:30px}
+.offer-grids .row > div{float:left;width:50%}
+.counter{padding:30px 10px}
+.heaven-gallery .row .masonary > div{float:left;width:50%}
+.event-slide{padding:0}
+.event-text{float:left;width:100%}
+.event-img{margin:0;width:100%}
+.event-text[data-rel]:before{display:table;float:none;left:0;line-height:30px;margin-bottom:20px;padding:0 10px;position:relative;top:0;width:auto;writing-mode:unset;
+    -webkit-transform:rotate(0deg);
+    -moz-transform:rotate(0deg);
+    -ms-transform:rotate(0deg);
+    -o-transform:rotate(0deg);
+    transform:rotate(0deg);
+}
+.events-carousel .owl-dots{width:100%}
+.testimonials-slide img{display:table;float:none;margin:50px auto 0;padding-top:50px;width:auto}
+.heaven-team .row > div{display:inline-block;float:none;margin:0 -2px;text-align:left;width:50%}
+.heaven-team{text-align:center}
+footer .widget:last-child{margin-bottom:50px}
+.gallery-widget .row > div{float:left;width:16.666%}
+footer{padding:0}
+footer:before{padding:0}
+.pagetop-inner h1{float:left;font-size:50px;line-height:60px;margin-top:20px;width:100%}
+.breadcrumbs{display:inline-block;float:none;margin:0}
+.pagetop-inner{float:left;padding:20px 0;position:relative;text-align:center;width:100%;
+-webkit-transform:none;
+-moz-transform:none;
+-ms-transform:none;
+-o-transform:none;
+transform:none;
+}
+.post-title{font-size:30px}
+.sidebar{float:left;margin-top:50px;width:100%}
+.simple-post-img strong{font-size:30px;height:80px;line-height:23px;padding:19px 0;width:80px}
+.simple-post-img strong i{font-size:15px}
+}
+
+
+@media (max-width:768px){
+.slide-text{background:#333;float:left;left:0;max-width:none;padding:30px;position:relative;width:100%;
+    -webkit-transform:translate(0);
+    -moz-transform:translate(0);
+    -ms-transform:translate(0);
+    -o-transform:translate(0);
+    transform:translate(0);
+}
+.simple-post-img strong{font-size:20px;height:60px;line-height:18px;padding:14px 0;width:60px}
+.simple-post-img strong i{font-size:12px}
+.post-title{font-size:24px}
+blockquote{font-size:20px;padding:0}
+.tags{margin-bottom:20px;width:100%}
+.share-post{max-width:none;text-align:center;width:100%}
+.author > img{display:unset}
+.author-text{display:unset;float:left;padding:30px 0 0;width:100%}
+.comment > img{display:unset}
+.comment-detail{display:unset;float:left;padding:30px 0 0;width:100%}
+.comments ul ul{padding:0}
+.whitebox li{float:left;width:50%}
+.heaven-popup > p{padding:0}
+.heaven-popup{padding:50px 20px}
+
+}
+
+@media (max-width:600px){
+.offer-grids .row > div{float:left;width:100%}
+}
+
+@media (max-width:480px){
+.header-btn.fancy-btn, .header-btn.fancy-btn.responsive-menu-btn{font-size:13px;margin-left:5px;margin-top:0;padding:10px 15px}
+.header-btn.fancy-btn.responsive-menu-btn{font-size:18px;padding:7px 10px}
+header.stick,
+header{background:#333;float:left;width:100%;position:fixed}
+header .logo img{max-width:112px}
+body{margin-top:69px}
+.owl-nav{padding:0 20px;top:70px}
+.slide-text > h2{font-size:23px;left:0}
+.slide-text{padding:30px 20px}
+.simple-title > h2{font-size:30px}
+.simple-title span{font-size:18px}
+.block{padding:50px 0}
+.luxury-rooms .row > div{float:left;margin:0;width:100%}
+.selectors li a span{font-size:17px}
+.selectors li{border:2px solid #fff}
+.selectors{border:2px solid #fff}
+.heaven-offers .simple-title > span{font-size:15px}
+.offer-grids .row > div{width:100%}
+.offer-detail{padding:25px 20px}
+.title > h2{font-size:32px}
+.title > h2 span{font-size:11px}
+.option-set li{float:left;padding:5px 0;width:100%}
+.heaven-gallery .row .masonary > div{width:100%}
+.heaven-team .row > div{float:left;margin:0;width:100%}
+.short-post-img{display:unset;float:left;width:100%}
+.short-post-desc{display:unset;float:left;padding:20px 10px 20px;width:100%}
+.short-post-img img{width:100%}
+.gallery-widget .row > div{width:33.334%}
+.pagetop-inner h1{font-size:40px;line-height:40px;margin-top:10px}
+.whitebox li{width:100%}
+}
