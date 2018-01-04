@@ -17,7 +17,7 @@ blockquote,
 form button,
 .whitebox > h4,
 .heaven-popup > h2 i{
-	color:#cb465c;
+	color:#f6760b;
 }
 
 .slide-text h2:before,
@@ -33,7 +33,7 @@ form button,
 .header-btn.fancy-btn,
 .simple-post-img strong,
 .datepicker table tr td span.active:hover, .datepicker table tr td span.active:hover:hover, .datepicker table tr td span.active.disabled:hover, .datepicker table tr td span.active.disabled:hover:hover, .datepicker table tr td span.active:active, .datepicker table tr td span.active:hover:active, .datepicker table tr td span.active.disabled:active, .datepicker table tr td span.active.disabled:hover:active, .datepicker table tr td span.active.active, .datepicker table tr td span.active.active:hover, .datepicker table tr td span.active.disabled.active, .datepicker table tr td span.active.disabled.active:hover, .datepicker table tr td span.active.disabled, .datepicker table tr td span.active.disabled:hover, .datepicker table tr td span.active.disabled.disabled, .datepicker table tr td span.active.disabled.disabled:hover, .datepicker table tr td span.active[disabled], .datepicker table tr td span.active[disabled]:hover, .datepicker table tr td span.active.disabled[disabled], .datepicker table tr td span.active.disabled[disabled]:hover{
-	background-color:#cb465c;
+	background-color:#f6760b;
 }
 
 
@@ -43,7 +43,7 @@ form button,
 .fancy-btn:after,
 .menu ul li a:before,
 form button{
-	border-color:#FF8C00;
+	border-color:#f6760b;
 }
 
 
