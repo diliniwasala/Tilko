@@ -267,6 +267,7 @@ header{
     height:20px;
     cursor:pointer;
     -webkit-appearance: none;
+    appearance: none;
 
 }
 .logo{
