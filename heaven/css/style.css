@@ -262,14 +262,6 @@ header{
     left:0;
     top:0;
 }
-.checkbox {
-    width: 20px;
-    height:20px;
-    cursor:pointer;
-    -webkit-appearance: none;
-    appearance: none;
-
-}
 .logo{
     float:left;
     width:20%;
