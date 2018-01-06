@@ -410,7 +410,7 @@ nav > ul ul li.has-children:before{
 }
 .heaven-slide img{width:100%}
 .heaven-slide:before{
-    background:black;
+    background:rgba(0,0,0,0.1);
     content:"";
     height:100%;
     width:100%;
