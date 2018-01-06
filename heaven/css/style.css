@@ -247,6 +247,10 @@ iframe{
 }
 img{float:left}
 
+
+
+
+
 /*=============== Cross Browser Compatibility ===================*/
 a,
 .owl-nav,
@@ -518,7 +522,7 @@ nav > ul ul li.has-children:before{
 }
 .owl-carousel:hover .owl-nav{opacity:1}
 .owl-nav > div{
-    background:rgba(235, 235, 235, 0.1);
+    background: rgba(23, 23, 23, 0.5);
     color:transparent;
     float:left;
     height:50px;
@@ -695,6 +699,34 @@ nav > ul ul li.has-children:before{
     opacity:1;
     visibility:visible;
 }
+
+/*=============packages==================*/
+/*#owl-demo .item{*/
+    /*margin: 3px;*/
+/*}*/
+/*#owl-demo .item img{*/
+    /*display: block;*/
+    /*width: 100%;*/
+    /*height: auto;*/
+/*}*/
+
+/*.owl-item.active > div:after {*/
+    /*content: 'Culture';*/
+/*}*/
+/*.owl-item.center > div:after {*/
+    /*content: 'Kaysts Tour';*/
+/*}*/
+/*.owl-item.active.center > div:after {*/
+    /*content: 'Delft island';*/
+/*}*/
+
+
+.owl-item > div:after {
+    font-family: sans-serif;
+    font-size: 24px;
+    font-weight: bold;
+}
+
 /*=============== Our Luxury Rooms ===================*/
 .title{
     float:left;
@@ -791,7 +823,7 @@ nav > ul ul li.has-children:before{
     font-size:25px;
     opacity:0;
     padding:13px 25px 8px;
-    visibility:hidden;
+    /*visibility:hidden;*/
     position:absolute;
     left:50%;
     top:50%;
@@ -1425,7 +1457,7 @@ nav > ul ul li.has-children:before{
     width:100%;
 }
 .owl-dot{
-    background:#fff;
+    background: #797979;
     display:inline-block;
     height:10px;
     margin:0 5px;
