@@ -89,6 +89,8 @@ $(window).on("load", function() {
     });
 
 
+
+
     /* ============ Heaven Slider ================*/
     var owl = $('.heaven-slider').owlCarousel({
         autoplay: true,
@@ -145,3 +147,24 @@ $(window).on("load", function() {
 
 
 }); /*=== Window.Load Ends Here ===*/
+
+// $(document).ready(function() {
+//
+//     $("#owl-demo").owlCarousel({
+//
+//         autoPlay: 3000, //Set AutoPlay to 3 seconds
+//
+//         items : 4,
+//         itemsDesktop : [1199,3],
+//         itemsDesktopSmall : [979,3]
+//
+//     });
+//
+// });
+
+$('.owl-carousel').owlCarousel({
+    autoplay: true,
+    center: true,
+    loop: true,
+    nav: true,
+});
