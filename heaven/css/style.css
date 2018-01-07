@@ -47,8 +47,8 @@ b, u, i, center,
 dl, dt, dd, ol, ul, li,
 fieldset, form, label, legend,
 table, caption, tbody, tfoot, thead, tr, th, td,
-article, aside, canvas, details, embed, 
-figure, figcaption, footer, header, hgroup, 
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
 menu, nav, output, ruby, section, summary,
 time, mark, audio, video{
     margin:0;
@@ -59,12 +59,12 @@ time, mark, audio, video{
     vertical-align:baseline;
 }
 /* HTML5 display-role reset for older browsers */
-article, aside, details, figcaption, figure, 
+article, aside, details, figcaption, figure,
 footer, header, hgroup, menu, nav, section{display:block}
 body{line-height:1.4}
 ol, ul{
     padding-left:20px;
-    margin:20px 0;   
+    margin:20px 0;
 }
 blockquote, q{quotes:none}
 blockquote:before, blockquote:after,
@@ -90,31 +90,35 @@ h1, h2, h3, h4, h5, h6{
 /* Social Icons */
 
 #social_side_links {
-	position: fixed;
-  top: 200px;
-  left: 0;
-  padding: 0;
-  list-style: none;
-  z-index: 99;
+    position: fixed;
+    top: 200px;
+    left: 0;
+    padding: 0;
+    list-style: none;
+    z-index: 99;
 }
 
 #social_side_links li a {display: block;}
 
 
 #social_side_links li a img {
-	display: block;
-	max-width:40px;
-  padding: 10px;
-  -webkit-transition:  background .2s ease-in-out;
-  -moz-transition:  background .2s ease-in-out;
-  -o-transition:  background .2s ease-in-out;
-  transition:  background .2s ease-in-out;
+    display: block;
+    max-width:40px;
+    padding: 10px;
+    -webkit-transition:  background .2s ease-in-out;
+    -moz-transition:  background .2s ease-in-out;
+    -o-transition:  background .2s ease-in-out;
+    transition:  background .2s ease-in-out;
 }
 
 
 #social_side_links li a:hover img {
+<<<<<<< HEAD
     background: rgba(192, 192, 192, .9);
 }
+=======
+    background: rgba(192, 192, 192, .9);}
+>>>>>>> 29af3913dcdfba24450c7f6fefd885ab3f996462
 
 
 /*end social icon*/
@@ -710,22 +714,22 @@ nav > ul ul li.has-children:before{
 
 /*=============packages==================*/
 /*#owl-demo .item{*/
-    /*margin: 3px;*/
+/*margin: 3px;*/
 /*}*/
 /*#owl-demo .item img{*/
-    /*display: block;*/
-    /*width: 100%;*/
-    /*height: auto;*/
+/*display: block;*/
+/*width: 100%;*/
+/*height: auto;*/
 /*}*/
 
 /*.owl-item.active > div:after {*/
-    /*content: 'Culture';*/
+/*content: 'Culture';*/
 /*}*/
 /*.owl-item.center > div:after {*/
-    /*content: 'Kaysts Tour';*/
+/*content: 'Kaysts Tour';*/
 /*}*/
 /*.owl-item.active.center > div:after {*/
-    /*content: 'Delft island';*/
+/*content: 'Delft island';*/
 /*}*/
 
 
@@ -952,7 +956,7 @@ nav > ul ul li.has-children:before{
     top:50%;
     width:100%;
     -webkit-transform:translateY(-50%);v
-    -moz-transform:translateY(-50%);
+-moz-transform:translateY(-50%);
     -ms-transform:translateY(-50%);
     -o-transform:translateY(-50%);
     transform:translateY(-50%);
@@ -1484,7 +1488,7 @@ nav > ul ul li.has-children:before{
     position:relative;
     width:100%;
 }
-.testimonials:before, 
+.testimonials:before,
 .testimonials:after{
     bottom:-5px;
     content:"";
