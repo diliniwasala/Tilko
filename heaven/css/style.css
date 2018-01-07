@@ -113,7 +113,8 @@ h1, h2, h3, h4, h5, h6{
 
 
 #social_side_links li a:hover img {
-	background: rgba(192, 192, 192, .9);}
+    background: rgba(192, 192, 192, .9);
+}
 
 
 /*end social icon*/
@@ -121,9 +122,13 @@ h1, h2, h3, h4, h5, h6{
 /*header section size start */
 
 /* header section size end*/
+
 /*about us page slide bar start*/
 
+.owl-carousel .heaven-room img{transform-style:preserve-3d}
+
 /*about us page slide bar end*/
+
 h1{font-size:32px}
 h2{font-size:28px}
 h3{font-size:24px}
