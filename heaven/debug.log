@@ -151,3 +151,11 @@
 [0110/152647.924:ERROR:crash_report_database_win.cc(427)] unexpected header
 [0110/154147.925:ERROR:crash_report_database_win.cc(427)] unexpected header
 [0110/155647.961:ERROR:crash_report_database_win.cc(427)] unexpected header
+[0110/161147.963:ERROR:crash_report_database_win.cc(427)] unexpected header
+[0110/162647.967:ERROR:crash_report_database_win.cc(427)] unexpected header
+[0110/164147.968:ERROR:crash_report_database_win.cc(427)] unexpected header
+[0110/164342.953:ERROR:process_reader_win.cc(151)] SuspendThread: Access is denied. (0x5)
+[0110/164459.768:ERROR:process_info.cc(632)] range at 0x2dd6268e00000000, size 0xd0 fully unreadable
+[0110/164459.768:ERROR:process_info.cc(632)] range at 0x2dd626ae00000000, size 0xd0 fully unreadable
+[0110/164459.768:ERROR:process_info.cc(632)] range at 0x0, size 0xd0 fully unreadable
+[0110/164614.227:ERROR:crash_report_database_win.cc(427)] unexpected header
