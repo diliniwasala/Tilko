@@ -416,11 +416,11 @@ header{
 }
 .logo{
     float:left;
-    width:10%;
+    width:20%;
 }
 .menu{
     float:right;
-    max-width:90%;
+    max-width:80%;
 }
 nav{float:left}
 .menu ul{
