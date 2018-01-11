@@ -1214,7 +1214,7 @@ nav > ul ul li.has-children:before{
     transition-timing-function:cubic-bezier(0.645, 0.045, 0.355, 1.000);/* easeInOutCubic */
 }
 .offer-detail:before{
-    background:rgba(255, 255, 255, 0.95) padding-box content-box;
+    background:rgba(255, 255, 255, 0.5) padding-box content-box;
     content:"";
     padding:10px;
     z-index:-1;
