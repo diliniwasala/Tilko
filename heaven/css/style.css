@@ -150,6 +150,20 @@ h1, h2, h3, h4, h5, h6{
 
 /*END SOCIAL FLOTING BAR*/
 
+/*Start testimonial page*/
+.selectors li a:before{
+    background:#252525;
+    content:"";
+    height:100%;
+    opacity:0.75;
+    width:100%;
+    z-index:1;
+    position:absolute;
+    left:0;
+    top:0;
+}
+/*End testimonial page*/
+
 /*header section size start */
 /* header section size end*/
 
@@ -230,7 +244,7 @@ iframe{
 }
 .fixed-bg.stop{background-attachment:scroll!important}
 .bg1{background-image:url(../images/resource/parallax1.jpg)}
-.bg2{background-image:url(../images/resource/parallax2.jpg)}
+.bg2{background-image:url(../images/services/service1.jpg)}
 .bg3{background-image:url(../images/resource/parallax3.jpg)}
 .bg4{background-image:url(../images/resource/parallax41.jpg)}
 .bg5{background-image:url(http://templates.stillidea.net/heaven/images/resource/parallax5.jpg)}
@@ -1214,7 +1228,7 @@ nav > ul ul li.has-children:before{
     transition-timing-function:cubic-bezier(0.645, 0.045, 0.355, 1.000);/* easeInOutCubic */
 }
 .offer-detail:before{
-    background:rgba(255, 255, 255, 0.5) padding-box content-box;
+    background:rgba(255, 255, 255, 0.95) padding-box content-box;
     content:"";
     padding:10px;
     z-index:-1;
