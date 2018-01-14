@@ -87,7 +87,63 @@ h1, h2, h3, h4, h5, h6{
     font-family:montserrat;
     font-weight:600;
 }
+/*=====================================thinks to do=============================*/
 
+
+/*.gallery-title*/
+/*{*/
+    /*font-size: 36px;*/
+    /*color: #42B32F;*/
+    /*text-align: center;*/
+    /*font-weight: 500;*/
+    /*margin-bottom: 70px;*/
+/*}*/
+/*.gallery-title:after {*/
+    /*content: "";*/
+    /*position: absolute;*/
+    /*width: 7.5%;*/
+    /*left: 46.5%;*/
+    /*height: 45px;*/
+    /*border-bottom: 1px solid #5e5e5e;*/
+/*}*/
+.filter-button
+{
+    font-size: 18px;
+    border: 1px solid #f6760b;
+    border-radius: 5px;
+    text-align: center;
+    color: #f6760b;
+    margin-bottom: 30px;
+
+}
+.filter-button:hover
+{
+    font-size: 18px;
+    border: 1px solid #f6760b;
+    border-radius: 5px;
+    text-align: center;
+    color: #ffffff;
+    background-color: #f6760b;
+
+}
+.btn-default:active .filter-button:active
+{
+    background-color: #f6760b;
+    color: white;
+}
+
+.port-image
+{
+    width: 100%;
+}
+
+.gallery_product
+{
+    margin-bottom: 30px;
+}
+
+
+/*================================================================================*/
 /*SOCIAL FLOATING BAR*/
 .social-icon{
     padding:0px;
@@ -844,12 +900,57 @@ nav > ul ul li.has-children:before{
 }
 
 /*=============== Our Luxury Rooms ===================*/
+
+
+
+/*.title1{*/
+    /*float:left;*/
+    /*!*margin-bottom:60px;*!*/
+    /*text-align:center;*/
+    /*width:100%;*/
+/*}*/
+
+/*.title1 > h2{*/
+    /*display:inline-block;*/
+    /*font-family:great vibes;*/
+    /*font-size:48px;*/
+    /*font-weight:500;*/
+    /*margin-bottom:26px;*/
+    /*position:relative;*/
+    /*text-align:right;*/
+/*}*/
+/*.title1 > h2 span {*/
+    /*color: #fff;*/
+    /*font-family: montserrat;*/
+    /*font-size: 14px;*/
+    /*line-height: 12px;*/
+    /*padding: 7px 20px;*/
+    /*position: absolute;*/
+    /*left: 50%;*/
+    /*text-transform: uppercase;*/
+    /*top: 100%;*/
+    /*text-align: center;*/
+    /*white-space: nowrap;*/
+    /*-webkit-transform: translateX(-50%);*/
+    /*-moz-transform: translateX(-50%);*/
+    /*-ms-transform: translateX(-50%);*/
+    /*-o-transform: translateX(-50%);*/
+    /*transform: translateX(-50%);*/
+/*}*/
+/*title1 > h2 i{*/
+    /*color: #f6760b;*/
+/*}*/
+
+
+/*==================================================================*/
+
 .title{
     float:left;
     margin-bottom:60px;
     text-align:center;
     width:100%;
 }
+
 .title > h2{
     display:inline-block;
     font-family:great vibes;
@@ -1059,7 +1160,7 @@ nav > ul ul li.has-children:before{
     text-align:center;
     top:50%;
     width:100%;
-    -webkit-transform:translateY(-50%);v
+    -webkit-transform:translateY(-50%);
 -moz-transform:translateY(-50%);
     -ms-transform:translateY(-50%);
     -o-transform:translateY(-50%);
@@ -1470,7 +1571,18 @@ nav > ul ul li.has-children:before{
     -ms-transform:translateY(0);
     -o-transform:translateY(0);
     transform:translateY(0);
+
 }
+
+/*============================thing to do in sri lanka=========================================================*/
+
+.gallery_product
+{
+    margin-bottom: 30px;
+}
+
+/*=============================================================================================================*/
+
 /*=============== Event Carousel ===================*/
 .events-carousel{
     float:left;
