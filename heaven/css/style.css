@@ -80,6 +80,8 @@ body{
     letter-spacing:0.1px;
     position:relative;
     font-family:poppins;
+    width:100%;
+  
 }
 body *{outline:none!important}
 h1, h2, h3, h4, h5, h6{
