@@ -184,15 +184,15 @@
                        <!---->
                     <!--</aside>-->
 
-                    <div class="comment-form">
-                        <h3 class="subtitle">Leave A Comment</h3>
-                        <form>
-                            <input type="text" placeholder="Name" />
-                            <input type="email" placeholder="Email" />
-                            <textarea placeholder="Message"></textarea>
-                            <button type="submit" >Submit</button>
-                        </form>
-                    </div>
+<!--                    <div class="comment-form">-->
+<!--                        <h3 class="subtitle">Leave A Comment</h3>-->
+<!--                        <form>-->
+<!--                            <input type="text" placeholder="Name" />-->
+<!--                            <input type="email" placeholder="Email" />-->
+<!--                            <textarea placeholder="Message"></textarea>-->
+<!--                            <button type="submit" >Submit</button>-->
+<!--                        </form>-->
+<!--                    </div>-->
 
                 </div>
             </div>
