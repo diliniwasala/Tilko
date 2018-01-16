@@ -17,6 +17,39 @@
 
 </head>
 <body>
+    	<!-- SOCIAL FLOATING BAR-->
+
+	<div class="social-icon">
+            <ul class="bar">
+                <li>
+                    
+                    <a href="https://www.facebook.com/Tilko-Travels-490920311285790/" target="_blank"><img src="images/icon/facebook-circle.png" width="32" height="32"></a>
+                </li>
+                <li>
+                    
+                    <a href="https://twitter.com" target="_blank"><img src="images/icon/twitter-circle.png" width="32" height="32"></a>
+                </li>
+                <li>
+                    
+                    <a href="https://plus.google.com" target="_blank"><img src="images/icon/gplus-circle.png" width="32" height="32"></a>
+                </li>
+                <li>
+                    
+                    <a href="https://www.linkedin.com" target="_blank"><img src="images/icon/linkedin-circle.png" width="32" height="32"></a>
+                </li>
+                <li>
+                    
+                    <a href="http://www.youtube.com" target="_blank"><img src="images/icon/youtube-circle.png" width="32" height="32"></a>
+                </li>
+                <li>
+                    
+                    <a href="https://www.pinterest.com" target="_blank"><img src="images/icon/pin-circle.png" width="32" height="32"></a>
+                </li>
+            </ul>
+        </div>
+        
+    
+        <!-- END SOCIAL FLOATING BAR-->
 <div class="theme-layout">
 
     <header>
@@ -175,9 +208,9 @@
                         <h4 class="widget-title">Get Quick Contact</h4>
                         <div id="message"></div>
                         <form  class="contact" method="post" action="http://templates.stillidea.net/heaven/contact.php" name="contactform" id="quick_contact_form">
-                            <input name="name" type="text" id="name" placeholder="Full Name" />
-                            <input  name="email" type="text" id="email"  placeholder="Email" />
-                            <textarea name="comments" id="comments"  placeholder="Details"></textarea>
+                            <input name="name" type="text" id="name" placeholder="Full Name"required />
+                            <input  name="email" type="text" id="email"  placeholder="Email" required />
+                            <textarea name="comments" id="comments"  placeholder="Details" required></textarea>
                             <button class="button" type="submit" id="submit">Submit</button>
                         </form>
                     </div><!-- Widget -->
@@ -235,16 +268,16 @@
 						<h2 style="padding-bottom:0px;">Inquire <i> Now</i></h2>
 						<form style="padding-top:20px; margin-top:0px;">
 							<div class="widget" >
-								<form  class="contact" method="post" action="http://templates.stillidea.net/heaven/contact.php" name="contactform" id="contactform">
-									<div class="col-md-6 "><input name="name" type="text" id="fullname" placeholder="Full Name" /></div>
-									<div class="col-md-6 "><input  name="email" type="text" id="emailid"  placeholder="Email" /></div>
-									<div class="col-md-6 "><input type="text" placeholder="Phone number"></div>
-									<div class="col-md-6"><input type="email" placeholder="Your country"></div>
-									<div class="col-md-6"><input class="popupDatepicker" type="text" placeholder="From "></div>
-									<div class="col-md-6"><input class="popupDatepicker" type="text" placeholder="To"></div>
-									<div class="col-md-10"><textarea name="comments" id="comment"  placeholder="message" style="height:150px"></textarea></div>
-									<div class="col-md-2"><button class="button" type="submit" id="submit_detail">Submit</button></div>
-								</form>
+                                    <form  class="contact" method="post" action="http://templates.stillidea.net/heaven/contact.php" name="contactform" id="contactform">
+                                        <div class="col-md-6 "><input name="name" type="text" id="fullname" placeholder="Full Name" required/></div>
+                                        <div class="col-md-6 "><input  name="email" type="text" id="emailid"  placeholder="Email" required/></div>
+                                        <div class="col-md-6 "><input type="text" placeholder="Phone number"required></div>
+                                        <div class="col-md-6"><input type="email" placeholder="Your country"required></div>
+                                        <div class="col-md-6"><input class="popupDatepicker" type="text" placeholder="From " required></div>
+                                        <div class="col-md-6"><input class="popupDatepicker" type="text" placeholder="To" required></div>
+                                        <div class="col-md-10"><textarea name="comments" id="comment"  placeholder="message" style="height:150px"required></textarea></div>
+                                        <div class="col-md-2"><button class="button" type="submit" id="submit_detail">Submit</button></div>
+                                    </form>
 							</div><!-- Widget -->
 						</form>
 					</div>

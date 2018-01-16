@@ -22,8 +22,8 @@
 	<div class="social-icon">
             <ul class="bar">
                 <li>
-                    
-                    <a href="https://www.facebook.com" target="_blank"><img src="images/icon/facebook-circle.png" width="32" height="32"></a>
+            
+                    <a href="https://www.facebook.com/Tilko-Travels-490920311285790/" target="_blank"><img src="images/icon/facebook-circle.png" width="32" height="32"></a>
                 </li>
                 <li>
                     
@@ -206,68 +206,6 @@
 
 
     <footer>
-<<<<<<< HEAD:heaven/careers.php
-        <div class="container">
-            <div class="row">
-                <div class="col-md-3">
-                    <div class="widget">
-                        <!--<div class="about-widget">-->
-                        <h4 class="widget-title">CONTACT US</h4>
-                        <ul>
-                            <li><i class="fa fa-map-marker"></i> Head Office Address <br>
-                                Ocean View Tower <br>
-                                No 25,Station Road,Colombo 04, <br>
-                                Sri Lanka. </li>
-                            <li><i class="fa fa-map-marker"></i> Hotel Address <br>
-                                Tilko Jaffna City Hotel <br>
-                                No 70/6, K.K.S. Road,
-                                Jaffna. </li>
-                            <li><i class="fa fa-phone"></i> +94 (0) 112 581 343</li>
-                            <li><i class="fa fa-envelope-o"></i><a onclick="ga ('send', 'event', 'MailLink', 'Click', 'MailToInfoFromFooter');" href="mailto:ayesha@tilkotravels.com" class="con_c" target="_top"> ayesha@tilkotravels.com</a></li>
-
-                        </ul>
-                    </div>
-                </div>
-                <div class="col-md-3">
-                    <div class="widget">
-                        <h4 class="widget-title">Get Quick Contact</h4>
-                        <div id="message"></div>
-                        <form  class="contact" method="post" action="http://templates.stillidea.net/heaven/contact.php" name="contactform" id="quick_contact_form">
-                            <input name="name" type="text" id="name" placeholder="Full Name" required/>
-                            <input  name="email" type="text" id="email"  placeholder="Email" required/>
-                            <textarea name="comments" id="comments"  placeholder="Details" required></textarea>
-                            <button class="button" type="submit" id="submit">Submit</button>
-                        </form>
-                    </div><!-- Widget -->
-                </div>
-                <div class="col-md-2">
-                    <div class="widget">
-                        <h4 class="widget-title">USEFUL LINKS</h4>
-                        <ul>
-                            <li><a href="aboutus.html#" title="">About Us</a></li>
-                            <li><a href="ouroffices.html" title="">our offices</a></li>
-                            <li><a href="careers.html#" title="">Careers</a></li>
-                            <li><a href="excursions.html" title="">Excursions</a></li>
-                            <li><a href="packagedetail.html" title="">Package details</a></li>
-                        </ul>
-                    </div>
-                </div>
-                <div class="col-md-4">
-                    <div class="widget">
-                        <h4 class="widget-title">GALLERY</h4>
-                        <div class="gallery-widget">
-                            <div class="row">
-                                <div class="col-md-4"><a href="index.html#gallery" title=""><img src="images/homepage/footer1.jpg" alt="" /></a></div>
-                                <div class="col-md-4"><a href="index.html#gallery" title=""><img src="images/homepage/footer4.jpg" alt="" /></a></div>
-                                <div class="col-md-4"><a href="index.html#gallery" title=""><img src="images/homepage/footer3.jpg" alt="" /></a></div>
-                                <div class="col-md-4"><a href="index.html#gallery" title=""><img src="images/homepage/footer5.jpg" alt="" /></a></div>
-                                <div class="col-md-4"><a href="index.html#gallery" title=""><img src="images/homepage/footer2.jpg" alt="" /></a></div>
-                                <div class="col-md-4"><a href="index.html#gallery" title=""><img src="images/homepage/footer6.jpg" alt="" /></a></div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-=======
 			<div class="container">
 				<div class="row">
 					<div class="col-md-3">
@@ -295,9 +233,9 @@
 							<h4 class="widget-title">Get Quick Contact</h4>
 							<div id="message"></div>
 							<form  class="contact" method="post" action="http://templates.stillidea.net/heaven/contact.php" name="contactform" id="quick_contact_form">
-								<input name="name" type="text" id="name" placeholder="Full Name" />
-								<input  name="email" type="text" id="email"  placeholder="Email" />
-								<textarea name="comments" id="comments"  placeholder="Details"></textarea>
+								<input name="name" type="text" id="name" placeholder="Full Name"required />
+								<input  name="email" type="text" id="email"  placeholder="Email" required />
+								<textarea name="comments" id="comments"  placeholder="Details" required></textarea>
 								<button class="button" type="submit" id="submit">Submit</button>
 							</form>
 						</div><!-- Widget -->
@@ -314,7 +252,6 @@
 
 
 
->>>>>>> ab6aec277cce2fb0b27a8e4393307382c7498af7:heaven/careers.html
 
 							</ul>
 						</div>
@@ -410,16 +347,16 @@
                             <h2 style="padding-bottom:0px;">Inquire <i> Now</i></h2>
                             <form style="padding-top:20px; margin-top:0px;">
                                 <div class="widget" >
-                                    <form  class="contact" method="post" action="http://templates.stillidea.net/heaven/contact.php" name="contactform" id="contactform">
-                                        <div class="col-md-6 "><input name="name" type="text" id="fullname" placeholder="Full Name" /></div>
-                                        <div class="col-md-6 "><input  name="email" type="text" id="emailid"  placeholder="Email" /></div>
-                                        <div class="col-md-6 "><input type="text" placeholder="Phone number"></div>
-                                        <div class="col-md-6"><input type="email" placeholder="Your country"></div>
-                                        <div class="col-md-6"><input class="popupDatepicker" type="text" placeholder="From "></div>
-                                        <div class="col-md-6"><input class="popupDatepicker" type="text" placeholder="To"></div>
-                                        <div class="col-md-10"><textarea name="comments" id="comment"  placeholder="message" style="height:150px"></textarea></div>
-                                        <div class="col-md-2"><button class="button" type="submit" id="submit_detail">Submit</button></div>
-                                    </form>
+                                <form  class="contact" method="post" action="http://templates.stillidea.net/heaven/contact.php" name="contactform" id="contactform">
+									<div class="col-md-6 "><input name="name" type="text" id="fullname" placeholder="Full Name" required/></div>
+									<div class="col-md-6 "><input  name="email" type="text" id="emailid"  placeholder="Email" required/></div>
+									<div class="col-md-6 "><input type="text" placeholder="Phone number"required></div>
+									<div class="col-md-6"><input type="email" placeholder="Your country"required></div>
+									<div class="col-md-6"><input class="popupDatepicker" type="text" placeholder="From " required></div>
+									<div class="col-md-6"><input class="popupDatepicker" type="text" placeholder="To" required></div>
+									<div class="col-md-10"><textarea name="comments" id="comment"  placeholder="message" style="height:150px"required></textarea></div>
+									<div class="col-md-2"><button class="button" type="submit" id="submit_detail">Submit</button></div>
+								</form>
                                 </div><!-- Widget -->
                             </form>
                         </div>
