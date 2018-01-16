@@ -300,16 +300,16 @@
                                 <div class="widget" >
                                         <form  class="application" action="mailto:ayesha@tilkotravels.com" method="post" enctype="text/plain" name="applicationform" id="Applicationform">
                                             <div class="col-md-3 "><label>Name*</label></div>
-                                            <div class="col-md-8 "><input name="name" type="text" id="fullname" placeholder="Full Name" /></div>
+                                            <div class="col-md-8 "><input name="name" type="text" id="fullname" placeholder="Full Name" required/></div>
                                             <div class="col-md-3 "><label>Email*</label></div>
-                                            <div class="col-md-8 "><input  name="email" type="text" id="emailid"  placeholder="Email" /></div>
+                                            <div class="col-md-8 "><input  name="email" type="text" id="emailid"  placeholder="Email" required/></div>
                                             <div class="col-md-3 "><label>Mobile</label></div>
                                             <div class="col-md-8 "><input type="text" placeholder="Phone number"></div>
                                             <div class="col-md-3 "><label>NIC No*</label></div>
-                                            <div class="col-md-8"><input type="text" placeholder="Your NIC No"></div>
+                                            <div class="col-md-8"><input type="text" placeholder="Your NIC No" required></div>
                                             <div class="col-md-3 "><label>Job title*</label></div>
                                             <div class="col-md-8">
-                                                <select name="job_id" id="job_title">
+                                                <select name="job_id" id="job_title" required>
                                                     <option value="">&nbsp;Select Job Title</option>
                                                     <option value="1">Social media And Digital Marketing</option>
                                                     <option value="2">Chauffeur guide</option>
@@ -324,7 +324,7 @@
                                             <div class="col-md-8">
                                                 <label class="upload" for="applicant_cv"><i class="fa fa-upload" aria-hidden="true"></i><p>UPLOAD CV</p></label>
                                                 <div class="col-md-8 ">
-                                                    <input type="file" name="applicant_cv_file" id="applicant_cv_file" accept=".pdf,.docx,doc" >
+                                                    <input type="file" name="applicant_cv_file" id="applicant_cv_file" accept=".pdf,.docx,doc" required>
                                                 </div>
                                                 <button class="button" type="submit" id="submit_detail" >Submit</button>
                                             </div>
