@@ -61,7 +61,7 @@
 						<li class="current"><a href="index.html#home" title="">HOME</a></li>
 						<li><a href="index.html#about"   title="">ABOUT US</a>
 							<ul>
-								<li><a class="external" href="careers.html" title="">CAREERS</a></li>
+								<li><a class="external" href="careers.php" title="">CAREERS</a></li>
 							</ul>
 						</li>
 						<li class=><a href="index.html#room" title="">ACTIVITIES</a></li>
@@ -89,8 +89,7 @@
             <div class="container">
                 <ul class="breadcrumbs">
                     <li><a href="index.html#" title="">Home</a></li>
-                    <li><a href="index.about" title="">career</a></li>
-                    <li><a href="careers.html" title="">career</a></li>
+                    <li><a href="careers.php" title="">career</a></li>
                 </ul>
 
                 <h1> Start Your <span> Career  With Us</span>   </h1>
@@ -233,9 +232,9 @@
                         <h4 class="widget-title">Get Quick Contact</h4>
                         <div id="message"></div>
                         <form  class="contact" method="post" action="http://templates.stillidea.net/heaven/contact.php" name="contactform" id="quick_contact_form">
-                            <input name="name" type="text" id="name" placeholder="Full Name" />
-                            <input  name="email" type="text" id="email"  placeholder="Email" />
-                            <textarea name="comments" id="comments"  placeholder="Details"></textarea>
+                            <input name="name" type="text" id="name" placeholder="Full Name" required/>
+                            <input  name="email" type="text" id="email"  placeholder="Email" required/>
+                            <textarea name="comments" id="comments"  placeholder="Details" required></textarea>
                             <button class="button" type="submit" id="submit">Submit</button>
                         </form>
                     </div><!-- Widget -->
@@ -249,10 +248,6 @@
                             <li><a href="careers.html#" title="">Careers</a></li>
                             <li><a href="excursions.html" title="">Excursions</a></li>
                             <li><a href="packagedetail.html" title="">Package details</a></li>
-
-
-
-
                         </ul>
                     </div>
                 </div>
@@ -283,10 +278,7 @@
 </div>
 
 
-                     
-
-
-
+    
 
 <div class="popup1-wrapper">
         <div class="popup1-base">
@@ -298,8 +290,9 @@
                         <h2 style="padding-bottom:0px;">Join <i> Us</i></h2>
                         <form style="padding-top:20px; margin-top:0px;">
                                 <div class="widget" >
-                                        <form action="mailto:sachini@innovay.com" method="post" enctype="text/plain" name="applicationform" id="Applicationform">
-                                            <?php include 'mailer.php'?> 
+                                <?php include 'mailer.php'?> 
+                                        <form method="post" enctype="text/plain" name="applicationform" id="Applicationform">
+                                            
                                             <div class="col-md-3 "><label>Name*</label></div>
                                             <div class="col-md-8 "><input name="name" type="text" id="fullname" placeholder="Full Name" required/></div>
                                             <div class="col-md-3 "><label>Email*</label></div>
