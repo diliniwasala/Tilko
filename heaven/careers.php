@@ -89,8 +89,7 @@
             <div class="container">
                 <ul class="breadcrumbs">
                     <li><a href="index.html#" title="">Home</a></li>
-                    <li><a href="index.about" title="">career</a></li>
-                    <li><a href="careers.html" title="">career</a></li>
+                    <li><a href="careers.php" title="">career</a></li>
                 </ul>
 
                 <h1> Start Your <span> Career  With Us</span>   </h1>
@@ -207,6 +206,68 @@
 
 
     <footer>
+<<<<<<< HEAD:heaven/careers.php
+        <div class="container">
+            <div class="row">
+                <div class="col-md-3">
+                    <div class="widget">
+                        <!--<div class="about-widget">-->
+                        <h4 class="widget-title">CONTACT US</h4>
+                        <ul>
+                            <li><i class="fa fa-map-marker"></i> Head Office Address <br>
+                                Ocean View Tower <br>
+                                No 25,Station Road,Colombo 04, <br>
+                                Sri Lanka. </li>
+                            <li><i class="fa fa-map-marker"></i> Hotel Address <br>
+                                Tilko Jaffna City Hotel <br>
+                                No 70/6, K.K.S. Road,
+                                Jaffna. </li>
+                            <li><i class="fa fa-phone"></i> +94 (0) 112 581 343</li>
+                            <li><i class="fa fa-envelope-o"></i><a onclick="ga ('send', 'event', 'MailLink', 'Click', 'MailToInfoFromFooter');" href="mailto:ayesha@tilkotravels.com" class="con_c" target="_top"> ayesha@tilkotravels.com</a></li>
+
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="widget">
+                        <h4 class="widget-title">Get Quick Contact</h4>
+                        <div id="message"></div>
+                        <form  class="contact" method="post" action="http://templates.stillidea.net/heaven/contact.php" name="contactform" id="quick_contact_form">
+                            <input name="name" type="text" id="name" placeholder="Full Name" required/>
+                            <input  name="email" type="text" id="email"  placeholder="Email" required/>
+                            <textarea name="comments" id="comments"  placeholder="Details" required></textarea>
+                            <button class="button" type="submit" id="submit">Submit</button>
+                        </form>
+                    </div><!-- Widget -->
+                </div>
+                <div class="col-md-2">
+                    <div class="widget">
+                        <h4 class="widget-title">USEFUL LINKS</h4>
+                        <ul>
+                            <li><a href="aboutus.html#" title="">About Us</a></li>
+                            <li><a href="ouroffices.html" title="">our offices</a></li>
+                            <li><a href="careers.html#" title="">Careers</a></li>
+                            <li><a href="excursions.html" title="">Excursions</a></li>
+                            <li><a href="packagedetail.html" title="">Package details</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="widget">
+                        <h4 class="widget-title">GALLERY</h4>
+                        <div class="gallery-widget">
+                            <div class="row">
+                                <div class="col-md-4"><a href="index.html#gallery" title=""><img src="images/homepage/footer1.jpg" alt="" /></a></div>
+                                <div class="col-md-4"><a href="index.html#gallery" title=""><img src="images/homepage/footer4.jpg" alt="" /></a></div>
+                                <div class="col-md-4"><a href="index.html#gallery" title=""><img src="images/homepage/footer3.jpg" alt="" /></a></div>
+                                <div class="col-md-4"><a href="index.html#gallery" title=""><img src="images/homepage/footer5.jpg" alt="" /></a></div>
+                                <div class="col-md-4"><a href="index.html#gallery" title=""><img src="images/homepage/footer2.jpg" alt="" /></a></div>
+                                <div class="col-md-4"><a href="index.html#gallery" title=""><img src="images/homepage/footer6.jpg" alt="" /></a></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+=======
 			<div class="container">
 				<div class="row">
 					<div class="col-md-3">
@@ -253,6 +314,7 @@
 
 
 
+>>>>>>> ab6aec277cce2fb0b27a8e4393307382c7498af7:heaven/careers.html
 
 							</ul>
 						</div>
@@ -284,10 +346,7 @@
 	</div>
 
 
-                     
-
-
-
+    
 
 <div class="popup1-wrapper">
         <div class="popup1-base">
@@ -299,25 +358,27 @@
                         <h2 style="padding-bottom:0px;">Join <i> Us</i></h2>
                         <form style="padding-top:20px; margin-top:0px;">
                                 <div class="widget" >
-                                        <form  class="application" action="mailto:ayesha@tilkotravels.com" method="post" enctype="text/plain" name="applicationform" id="Applicationform">
+                                <?php include 'mailer.php'?> 
+                                        <form method="post" enctype="text/plain" name="applicationform" id="Applicationform">
+                                            
                                             <div class="col-md-3 "><label>Name*</label></div>
-                                            <div class="col-md-8 "><input name="name" type="text" id="fullname" placeholder="Full Name" /></div>
+                                            <div class="col-md-8 "><input name="name" type="text" id="fullname" placeholder="Full Name" required/></div>
                                             <div class="col-md-3 "><label>Email*</label></div>
-                                            <div class="col-md-8 "><input  name="email" type="text" id="emailid"  placeholder="Email" /></div>
+                                            <div class="col-md-8 "><input  name="email" type="text" id="emailid"  placeholder="Email" required/></div>
                                             <div class="col-md-3 "><label>Mobile</label></div>
-                                            <div class="col-md-8 "><input type="text" placeholder="Phone number"></div>
+                                            <div class="col-md-8 "><input type="text" placeholder="Phone number" name="mobile"></div>
                                             <div class="col-md-3 "><label>NIC No*</label></div>
-                                            <div class="col-md-8"><input type="text" placeholder="Your NIC No"></div>
+                                            <div class="col-md-8"><input type="text" placeholder="Your NIC No" name="nic" required></div>
                                             <div class="col-md-3 "><label>Job title*</label></div>
                                             <div class="col-md-8">
-                                                <select name="job_id" id="job_title">
+                                                <select name="job_id" required>
                                                     <option value="">&nbsp;Select Job Title</option>
                                                     <option value="1">Social media And Digital Marketing</option>
                                                     <option value="2">Chauffeur guide</option>
                                                 </select>
                                             </div><br/>
                                             <div class="col-md-3 "><label>Messege</label></div>
-                                            <div class="col-md-8"><textarea name="comments" id="comment"  placeholder="message" style="height:150px"></textarea>
+                                            <div class="col-md-8"><textarea name="message"  placeholder="message" style="height:150px"></textarea>
                                                 <br/>
                                                 <p>*Mandatory Fields</p>
                                             </div>
@@ -325,9 +386,9 @@
                                             <div class="col-md-8">
                                                 <label class="upload" for="applicant_cv"><i class="fa fa-upload" aria-hidden="true"></i><p>UPLOAD CV</p></label>
                                                 <div class="col-md-8 ">
-                                                    <input type="file" name="applicant_cv_file" id="applicant_cv_file" accept=".pdf,.docx,doc" >
+                                                    <input type="file" name="applicant_cv_file" id="applicant_cv_file" accept=".pdf,.docx,doc" required>
                                                 </div>
-                                                <button class="button" type="submit" id="submit_detail" >Submit</button>
+                                                <button class="button" type="submit" name="submit" >Submit</button>
                                             </div>
                                             
                                         </form>
