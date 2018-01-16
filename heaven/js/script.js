@@ -60,6 +60,15 @@ $(window).on("load", function() {
     });
 
 
+    $(".open-popup1").on("click",function(){
+        $(".popup1-wrapper").fadeIn();
+        return false;
+    });
+    $(".close").on("click",function(){
+        $(".popup1-wrapper").fadeOut();
+    });
+
+
 
     /* =============== Ajax Contact Form ===================== */
     $('#contactform').submit(function(){
