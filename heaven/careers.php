@@ -298,25 +298,26 @@
                         <h2 style="padding-bottom:0px;">Join <i> Us</i></h2>
                         <form style="padding-top:20px; margin-top:0px;">
                                 <div class="widget" >
-                                        <form  class="application" action="mailto:ayesha@tilkotravels.com" method="post" enctype="text/plain" name="applicationform" id="Applicationform">
+                                        <form action="mailto:sachini@innovay.com" method="post" enctype="text/plain" name="applicationform" id="Applicationform">
+                                            <?php include 'mailer.php'?> 
                                             <div class="col-md-3 "><label>Name*</label></div>
                                             <div class="col-md-8 "><input name="name" type="text" id="fullname" placeholder="Full Name" required/></div>
                                             <div class="col-md-3 "><label>Email*</label></div>
                                             <div class="col-md-8 "><input  name="email" type="text" id="emailid"  placeholder="Email" required/></div>
                                             <div class="col-md-3 "><label>Mobile</label></div>
-                                            <div class="col-md-8 "><input type="text" placeholder="Phone number"></div>
+                                            <div class="col-md-8 "><input type="text" placeholder="Phone number" name="mobile"></div>
                                             <div class="col-md-3 "><label>NIC No*</label></div>
-                                            <div class="col-md-8"><input type="text" placeholder="Your NIC No" required></div>
+                                            <div class="col-md-8"><input type="text" placeholder="Your NIC No" name="nic" required></div>
                                             <div class="col-md-3 "><label>Job title*</label></div>
                                             <div class="col-md-8">
-                                                <select name="job_id" id="job_title" required>
+                                                <select name="job_id" required>
                                                     <option value="">&nbsp;Select Job Title</option>
                                                     <option value="1">Social media And Digital Marketing</option>
                                                     <option value="2">Chauffeur guide</option>
                                                 </select>
                                             </div><br/>
                                             <div class="col-md-3 "><label>Messege</label></div>
-                                            <div class="col-md-8"><textarea name="comments" id="comment"  placeholder="message" style="height:150px"></textarea>
+                                            <div class="col-md-8"><textarea name="message"  placeholder="message" style="height:150px"></textarea>
                                                 <br/>
                                                 <p>*Mandatory Fields</p>
                                             </div>
@@ -326,7 +327,7 @@
                                                 <div class="col-md-8 ">
                                                     <input type="file" name="applicant_cv_file" id="applicant_cv_file" accept=".pdf,.docx,doc" required>
                                                 </div>
-                                                <button class="button" type="submit" id="submit_detail" >Submit</button>
+                                                <button class="button" type="submit" name="submit" >Submit</button>
                                             </div>
                                             
                                         </form>
