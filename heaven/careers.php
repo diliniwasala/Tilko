@@ -233,8 +233,8 @@
 							<h4 class="widget-title">Get Quick Contact</h4>
 							<div id="message"></div>
 							<form  class="contact" method="post" action="http://templates.stillidea.net/heaven/contact.php" name="contactform" id="quick_contact_form">
-								<input name="name" type="text" id="name" placeholder="Full Name"required />
-								<input  name="email" type="text" id="email"  placeholder="Email" required />
+								<input name="name" type="text" id="name" placeholder="Full Name" required/>
+								<input  name="email" type="text" id="email"  placeholder="Email" required/>
 								<textarea name="comments" id="comments"  placeholder="Details" required></textarea>
 								<button class="button" type="submit" id="submit">Submit</button>
 							</form>
