@@ -298,7 +298,7 @@
                         <h2 style="padding-bottom:0px;">Join <i> Us</i></h2>
                         <form style="padding-top:20px; margin-top:0px;">
                                 <div class="widget" >
-                                        <form  class="contact" method="post" action="http://templates.stillidea.net/heaven/contact.php" name="applicationform" id="Applicationform">
+                                        <form  class="application" action="mailto:ayesha@tilkotravels.com" method="post" enctype="text/plain" name="applicationform" id="Applicationform">
                                             <div class="col-md-3 "><label>Name*</label></div>
                                             <div class="col-md-8 "><input name="name" type="text" id="fullname" placeholder="Full Name" /></div>
                                             <div class="col-md-3 "><label>Email*</label></div>
@@ -322,13 +322,11 @@
                                             </div>
                                             <div class="col-md-3 "><label></label></div>
                                             <div class="col-md-8">
-            
-                                                    <label class="upload" for="applicant_cv"><i class="fa fa-upload" aria-hidden="true"></i><p>UPLOAD CV</p></label>
-                                                
+                                                <label class="upload" for="applicant_cv"><i class="fa fa-upload" aria-hidden="true"></i><p>UPLOAD CV</p></label>
                                                 <div class="col-md-8 ">
-                                                    <input type="file" name="applicant_cv_file" id="applicant_cv_file">
+                                                    <input type="file" name="applicant_cv_file" id="applicant_cv_file" accept=".pdf,.docx,doc" >
                                                 </div>
-                                                <button class="button" type="submit" id="submit_detail">Submit</button>
+                                                <button class="button" type="submit" id="submit_detail" >Submit</button>
                                             </div>
                                             
                                         </form>
@@ -367,6 +365,8 @@
                 </div>
             </div>
         </div><!-- Popup -->
+
+        
 
 
 
